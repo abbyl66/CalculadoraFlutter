@@ -86,7 +86,7 @@ class CalculadoraState extends State<CalculadoraFlutter> {
           
           //Espacio donde están los botones,
           Expanded(
-            flex: 3,
+            flex: 2,
             child: Container(
               child: GridView.builder(
                   itemCount: botones.length,

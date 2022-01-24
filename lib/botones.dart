@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+//Estilo de los botones.
+
 class Botones extends StatelessWidget{
   final color;
   final ColorTxt;
