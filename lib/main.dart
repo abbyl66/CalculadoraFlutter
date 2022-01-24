@@ -72,13 +72,13 @@ class CalculadoraState extends State<CalculadoraFlutter> {
                 children: <Widget>[
                   SizedBox(height: 40),
                   Container(
-                      alignment: Alignment.centerRight, child: Text(eOpc, style: TextStyle(fontSize: 15, color: Colors.grey)), padding: EdgeInsets.only(right: 20),),
+                      alignment: Alignment.centerRight, child: Text(eOpc, style: TextStyle(fontSize: 25, color: Colors.grey)), padding: EdgeInsets.only(right: 20),),
                   Container(
-                      alignment: Alignment.centerRight, child: Text(operacion, style: TextStyle(fontSize: 23),), padding: EdgeInsets.all(20),),
+                      alignment: Alignment.centerRight, child: Text(operacion, style: TextStyle(fontSize: 35),), padding: EdgeInsets.all(20),),
                   Container(
-                      alignment: Alignment.centerRight, child: Text(preAns, style: TextStyle(fontSize: 15),), padding: EdgeInsets.only(right: 20),),
+                      alignment: Alignment.centerRight, child: Text(preAns, style: TextStyle(fontSize: 25),), padding: EdgeInsets.only(right: 20),),
                   Container(
-                      alignment: Alignment.centerRight, child: Text(resultado, style: TextStyle(fontSize: 20),), padding: EdgeInsets.only(right: 20),)
+                      alignment: Alignment.centerRight, child: Text(resultado, style: TextStyle(fontSize: 30),), padding: EdgeInsets.only(right: 20),)
                 ],
               ),
             ),
